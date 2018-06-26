@@ -1,0 +1,61 @@
+@charset "utf-8";
+.htn-more:hover + .htn-nav .more1{
+    top: 50px;
+}
+.htn-more:hover >ul{
+    top: 0;
+}
+.htn-more:hover a{
+    background:url("../images/nav2016-morebg.png") no-repeat 0 24px;
+}
+.ht-nav a:hover{
+    color: red;
+}
+/*hover头部轮播图，显示前进后退按钮*/
+#header .hc-bannerleft:hover .swiper-button-prev{
+    left: 681px;
+}
+#header .hc-bannerleft:hover .swiper-button-next{
+    right: 1px;
+}
+/*头部结束*/
+
+
+/*内容开始*/
+.right-now .rn-content-l p:hover{
+    color: #db3a45;
+}
+.right-now .rn-content-l a:hover{
+    color: #db3a45;
+}
+/*更多免费试用*/
+.product-more:hover .free-trial-white{
+    top:-20px;
+}
+.product-more:hover .free-trial-black{
+    top: 0;
+}
+/*更多样式*/
+.rn-ads-300:hover .m-hover{
+    height: 300px;
+    top:0;
+}
+.m-hover span:hover{
+    color: black;
+    background-color: white;
+    border-color: white;
+}
+.video-list span:hover{
+    color: #db3a45;
+}
+.left-video:hover .left-video-play{
+    background-color: rgba(0,0,0,.7);
+    background-position-y: -157px;
+}
+.video-first:hover .video-first-play{
+    background-color: rgba(0,0,0,.7);
+    background-position-y: -145px;
+}
+/*内容结束*/
+
+
